@@ -1,0 +1,22 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+* {
+    border: 1px solid red;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.header .links ul{
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+    gap: 10px;
+}
