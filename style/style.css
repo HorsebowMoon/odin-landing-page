@@ -2,7 +2,6 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 100vh;
 }
 
 * {
@@ -30,6 +29,20 @@ body{
 .first .description,
 .first .image {
     width: 50%;
+}
+
+.second .subtitle h2{
+    text-align: center;
+}
+
+.second .img-container{
+    display: flex;
+    gap: 20px;
+}
+
+.img{
+    height: 100px;
+    width: 100%;
 }
 
 .footer{
