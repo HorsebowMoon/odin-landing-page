@@ -45,6 +45,18 @@ body{
     width: 100%;
 }
 
+.fourth{
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .footer{
     align-self: center;
 }
