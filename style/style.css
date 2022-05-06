@@ -2,10 +2,30 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
-* {
-    border: 1px solid red;
+.header,
+.first,
+.second,
+.third,
+.fourth,
+.footer {
+    padding: 0 15%;
+}
+
+.footer {
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.first,
+.second,
+.third,
+.fourth {
+    padding-top: 7%;
+    padding-bottom: 7%;
 }
 
 .header,
@@ -25,7 +45,7 @@ body{
     display: flex;
     list-style: none;
     padding-left: 0;
-    gap: 10px;
+    gap: 15px;
 }
 
 .header .links,
@@ -38,40 +58,134 @@ body{
 .header .logo {
     font-size: 24px;
     color: #F9FAF8;
+    font-weight: 600;
 }
 
 .first{
     display: flex;
+    gap: 10px;
 }
+
 
 .first .description h1{
     font-size: 48px;
     font-weight: 900;
     color: #f9faf8;
+    margin-bottom: 0;
+    
+}
+
+.first .description p{
+    font-weight: 300;
+    margin-top: 0;
+}
+
+.first .description button{
+    border-color: #3882f6;
+    padding: 2px 15px;
 }
 
 .first .description,
-.first .image {
+.first .ph-image {
     width: 50%;
+}
+
+.first .ph-image{
+    background-color: #858687;
+    color:#e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .second .subtitle h2{
     text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
 }
 
 .second .img-container{
     display: flex;
     gap: 20px;
+    justify-content: center;
+}
+
+.second .img-container p{
+    text-align: center;
+}
+
+.img-container-a{
+    max-width: 120px;
 }
 
 .img{
     height: 100px;
     width: 100%;
+    border: #3882f6 solid 2px;
+}
+
+.third{
+    background-color: #e5e7eb;
+    color: #1f2937;
+}
+
+.third h3{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    margin-bottom: 0;
+}
+
+.third p{
+    margin-top: 0;
+    font-weight: 600;
+    text-align: right;
+    font-size: 24px;
 }
 
 .fourth{
     display: flex;
     justify-content: center;
+}
+
+.fourth .container{
+    gap: 5px;
+    padding: 10px 10%;
+}
+
+.fourth .container .text .p1{
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.fourth .container .text .p2{
+    margin-top: 1px;
+}
+
+.container,
+button{
+    background-color: #3882f6;
+    color: #e5e7eb;
+    border-color: #e5e7eb;
+    padding: 2px 15px;
+}
+
+button{
+    font-size: 16px;
+}
+
+
+
+.container,
+button,
+.img {
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
 }
 
 .container{
