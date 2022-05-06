@@ -1,6 +1,7 @@
 body{
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
 }
 
 * {
@@ -19,4 +20,8 @@ body{
     list-style: none;
     padding-left: 0;
     gap: 10px;
+}
+
+.footer{
+    align-self: center;
 }
