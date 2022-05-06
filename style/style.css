@@ -23,6 +23,16 @@ body{
     gap: 10px;
 }
 
+.first{
+    display: flex;
+}
+
+.first .description,
+.first .image {
+    width: 50%;
+}
+
 .footer{
     align-self: center;
 }
+
