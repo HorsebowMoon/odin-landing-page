@@ -8,6 +8,12 @@ body{
     border: 1px solid red;
 }
 
+.header,
+.first,
+.footer {
+    background-color: #1f2937;
+}
+
 .header{
     display: flex;
     justify-content: space-between;
@@ -22,8 +28,26 @@ body{
     gap: 10px;
 }
 
+.header .links,
+.first .description p,
+.footer{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.header .logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
 .first{
     display: flex;
+}
+
+.first .description h1{
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
 }
 
 .first .description,
@@ -58,6 +82,7 @@ body{
 }
 
 .footer{
-    align-self: center;
+    display: flex;
+    justify-content: center;
 }
 
